@@ -1,0 +1,21 @@
+img {
+  height: 50px;
+  width: 50px;
+  margin-right: 5px;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrap-text {
+  width: 100px;
+}
+
+/* HINT: Layout can be tricky, 
+for this challenge we want to use 
+the flex grow property  */
+.flex__cell {
+  text-align: right;
+}

@@ -1,0 +1,12 @@
+img {
+  height: 50px;
+  width: 50px;
+  margin-right: 5px;
+}
+
+/* HINT: Layout can be tricky, for this challenge
+we want to use the display CSS property */
+.challenge-text {
+  width: calc(100% - 60px);
+  vertical-align: middle;
+}

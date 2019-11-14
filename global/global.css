@@ -1,0 +1,118 @@
+html {
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  font-family: 'Karla', sans-serif;
+  margin: 2em;
+  font-size: 18px;
+  letter-spacing: 0.03em;
+  line-height: 1.6em;
+  color: black;
+  max-width: 1000px;
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: 'Space Mono', monospace;
+  color: black;
+  font-size: 36px;
+  letter-spacing: 0.05em;
+  line-height: 1.6em;
+}
+
+
+
+h4 {
+  font-size: 28px;
+  font-weight: bold;
+  letter-spacing: 0.15em;
+}
+
+a {
+  color: #387BD1;
+}
+
+a:hover {
+  color: #1163CD;
+}
+
+a:active {
+  color: #084DA5;
+}
+
+a:visited {
+  color: #787BD1;
+}
+
+input, select {
+  padding: 12px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+select {
+  background: white;
+  height: 40px;
+}
+
+button {
+  border: none;
+  font-size: 16px;
+  padding: 12px 30px;
+  background: #1163CD;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 0.2em;
+}
+
+button:hover, button:focus {
+  background: #084DA5;
+}
+
+button:active {
+  background: #063B7F;
+}
+
+.green-text {
+  color: #00cc99;
+}
+
+.blue-text {
+  color: #1163CD;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.mt-80 {
+  margin-top: 80px;
+}
+
+.hint .hint__hide {
+  opacity: 0;
+  transition: 0.35s ease;
+}
+
+.hint:hover .hint__hide {
+  opacity: 1;
+}
+
+.back-text {
+  position: fixed;
+  top: 25px;
+}
+
+.confetti-canvas {
+  left: 0px;
+  right: 0px;
+}

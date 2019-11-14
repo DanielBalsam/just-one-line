@@ -1,0 +1,21 @@
+img {
+  height: 50px;
+  width: 50px;
+  margin-right: 5px;
+}
+
+/* HINT: If we want to take advantage of flexbox,
+first we have to turn it on */
+.flex {
+  justify-content: space-between;
+}
+
+.wrap-text {
+  width: 100px;
+}
+
+
+.flex__cell {
+  text-align: right;
+  flex-grow: 1;
+}
